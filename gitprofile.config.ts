@@ -2,7 +2,7 @@
 
 const CONFIG = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (This is the only required config)
+    username: 'Kees-Nauta', // Your GitHub org/user name. (This is the only required config)
   },
   /**
    * If you are deploying to https://<USERNAME>.github.io/, for example your repository is at https://github.com/arifszn/arifszn.github.io, set base to '/'.
@@ -17,7 +17,7 @@ const CONFIG = {
       mode: 'automatic', // Mode can be: 'automatic' or 'manual'
       automatic: {
         sortBy: 'stars', // Sort projects by 'stars' or 'updated'
-        limit: 8, // How many projects to display.
+        limit: 1, // How many projects to display.
         exclude: {
           forks: false, // Forked projects will not be displayed if set to true.
           projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
@@ -29,7 +29,7 @@ const CONFIG = {
       },
     },
     external: {
-      header: 'My Projects',
+      header: '',
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
@@ -57,43 +57,40 @@ const CONFIG = {
     imageURL: '',
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
+    linkedin: 'kees-nauta-6a892a2b2',
+    twitter: '',
+    mastodon: '',
     researchGate: '',
     facebook: '',
     instagram: '',
     youtube: '', // example: 'pewdiepie'
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
+    medium: '',
+    dev: '',
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
-    website: 'https://www.arifszn.com',
+    website: '',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: 'Nautainseacula@gmail.com',
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      '', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
+    'Express',
     'JavaScript',
-    'React.js',
+    'HTML',
     'Node.js',
-    'Nest.js',
-    'MySQL',
     'PostgreSQL',
     'Git',
-    'Docker',
-    'PHPUnit',
+    'AWS',
+    'Bycrypt',
     'CSS',
-    'Antd',
-    'Tailwind',
+    'Sequelize',
+    'Axios',
   ],
   experiences: [
     {
@@ -156,7 +153,7 @@ const CONFIG = {
   // Display articles from your medium or dev account. (Optional)
   blog: {
     source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
+    username: '', // to hide blog section, keep it empty
     limit: 2, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
@@ -168,7 +165,7 @@ const CONFIG = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'lofi',
+    defaultTheme: 'dracula',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
